@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: whitesmoke;
+    text-align: center;
+  }
+  
+  
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+  }
+  
+  #reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color:orangered;
+    color:black;
+    border-radius: 1rem;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: goldenrod;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    border-color: chocolate;
+  }
+  
+  #msg {
+    color:red;
+    font-size: 5vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+  h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cornflowerblue;
+    font-size: 100px;
+    text-align: center;
+    padding-left: 65px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 10px;
+    margin: 0 auto;
+    width: 360px;
+    height: 360px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: burlywood;
+    border: 10px solid green;
+  }
+  #xyz{
+    text-align: right;
+    height: 75px;
+    font-size: 45px;
+    color: darkkhaki;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 75px;
+    float:right;
+    right:25px;
+    text-align: center;
+    border: none;
+  }
